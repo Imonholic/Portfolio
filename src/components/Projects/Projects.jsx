@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import leaf from "./Images/leaf.png";
 import tasktracker from "./Images/tasktracker.png";
 import startup_page from "./Images/chrome_startup_page.png";
-import amazon from "./Images/amazon_clone.png";
+import sentireader from "./Images/sentireader.jpg";
 import portfolio from "./Images/portfolio.png";
 
 function Projects() {
@@ -26,7 +26,7 @@ function Projects() {
               isBlog={false}
               title="Chrome Startup Page"
               description="This was made to change how the normal chrome startup page looked into something that can be better looking and effective as well. You can search normally as you could do on the startup page, macros for commonly used websites such as github, youtube and more are present there, redirects if the website is not in a macro"
-              ghLink="https://github.com/mehulverma26/chrome-startup-page"
+              ghLink="https://github.com/Imonholic/Chrome-Startup-Page-Extension.git"
             />
           </Col>
 
@@ -36,7 +36,7 @@ function Projects() {
               isBlog={false}
               title="Plant AI"
               description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/mehulverma26/Plant_AI"
+              ghLink="https://github.com/Imonholic/Plant_AI.git"
             />
           </Col>
 
@@ -46,8 +46,18 @@ function Projects() {
               isBlog={false}
               title="TaskTracker"
               description="The project is a web application called TaskTracker, designed to streamline and enhance various aspects of users' lives. TaskTracker aims to assist users in managing tasks, improving their mental health, boosting productivity, and overall well-being."
-              ghLink="https://github.com/mehulverma26/technomatch23"
+              ghLink="https://github.com/Imonholic/Task-Tracker.git"
             />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sentireader}
+              isBlog={false}
+              title="Senti-Reader"
+              description="Senti Reader is a cutting-edge online journaling platform empowered by a custom-built AI model. Users can register, write personal journals, and gain insight into their emotional well-being through our emotion detection chart. Enhance self-awareness and emotional intelligence while documenting your thoughts and feelings with Senti Reader."
+              ghLink="https://github.com/Imonholic/Senti-Reader.git"
+               />
           </Col>
 
           <Col md={4} className="project-card">
@@ -56,7 +66,7 @@ function Projects() {
               isBlog={false}
               title="Portfolio Website"
               description="Discover my digital portfolio repository. Explore a captivating array of projects, from responsive websites to innovative UI/UX designs. A platform that offers inspiration and insight into a visionary digital artist shaping the virtual landscape."
-              ghLink="https://github.com/mehulverma26/portfolio"
+              ghLink="https://github.com/Imonholic/Portfolio.git"
             />
           </Col>
         </Row>
