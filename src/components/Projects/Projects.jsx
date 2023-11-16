@@ -7,6 +7,7 @@ import tasktracker from "./Images/tasktracker.png";
 import startup_page from "./Images/chrome_startup_page.png";
 import sentireader from "./Images/sentireader.jpg";
 import portfolio from "./Images/portfolio.png";
+import chatgptandroid from "./Images/chatgptandroid.jpg"
 
 function Projects() {
   return (
@@ -57,6 +58,16 @@ function Projects() {
               title="Senti-Reader"
               description="Senti Reader is a cutting-edge online journaling platform empowered by a custom-built AI model. Users can register, write personal journals, and gain insight into their emotional well-being through our emotion detection chart. Enhance self-awareness and emotional intelligence while documenting your thoughts and feelings with Senti Reader."
               ghLink="https://github.com/Imonholic/Senti-Reader.git"
+               />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatgptandroid}
+              isBlog={false}
+              title="ChatGPT Android"
+              description="Introducing ChatGPT Android, your personal conversational assistant powered by OpenAI's GPT-3. Engage in natural, dynamic conversations, ask questions, seek information, or simply chat for fun. ChatGPT brings the power of state-of-the-art language models to your fingertips, providing a seamless and interactive experience for users. Enjoy the convenience of intelligent conversations wherever you go!"
+              ghLink="https://github.com/Imonholic/ChatGPT-Android-App.git"
                />
           </Col>
 
