@@ -13,10 +13,9 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Imon Banerjee </span>
             from <span className="purple"> West Bengal, India.</span>
-            <br /> I am a Final Year Student pursuing Bachelors of Computer
-            Application (BCA) at CHRIST (Deemed to be University).
+            <br /> I am a ML AI Data Analyst currently in Amazon having 1 year of experience.
             <br />
-            Apart from coding, some other activities that I love to do:
+            Apart from my job role, some other activities that I love to do:
           </p>
           <ul>
             <li className="about-activity">
