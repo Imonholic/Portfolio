@@ -7,6 +7,7 @@ import tasktracker from "./Images/tasktracker.png";
 import startup_page from "./Images/chrome_startup_page.png";
 import sentireader from "./Images/sentireader.jpg";
 import portfolio from "./Images/portfolio.png";
+import wahstory from "./Images/wahstory.png";
 
 function Projects() {
   return (
@@ -28,6 +29,16 @@ function Projects() {
               description="This was made to change how the normal chrome startup page looked into something that can be better looking and effective as well. You can search normally as you could do on the startup page, macros for commonly used websites such as github, youtube and more are present there, redirects if the website is not in a macro"
               ghLink="https://github.com/Imonholic/Chrome-Startup-Page-Extension.git"
             />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={wahstory}
+              isBlog={false}
+              title="WAHStory"
+              description="WAHStory is a storytelling and marketing platform sharing inspiring real-life journeys while helping brands craft emotional narratives through content creation, digital marketing, and community engagement since 2019."
+              ghLink="https://www.wahstory.com"
+              />
           </Col>
 
           <Col md={4} className="project-card">
